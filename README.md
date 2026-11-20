@@ -4,42 +4,10 @@ Application Flutter présentant le CV interactif de Mathe-Gloria ALIKA MUBARHUZI
 Elle utilise une palette orange clair, une typographie Poppins et une barre de
 navigation inférieure personnalisée.
 
-## Fonctionnalités
+## Captures
 
-- **Connexion** : formulaire de validation simple, sans authentification réelle.
-- **CV** : profil, expériences, formations, compétences, langues et intérêts.
-- **Famille** : liste des membres de la famille présentés dans le contenu.
-- **Contact** : coordonnées avec liens pour appeler, envoyer un e-mail ou ouvrir
-  une carte.
-- **Interface** : cartes blanches, ombres douces et navigation animée.
-- **Photos** : portraits du dossier `assets/images/`, avec leurs extensions
-  réelles (`P.png`, `M.png`, `G.jpg` et `s.jpeg`).
+<img width="1502" height="921" alt="Capture d&#39;écran 2026-11-20 120318" src="https://github.com/user-attachments/assets/232c1ec3-f01c-4d9f-8a5d-a0b3ca51143c" />
+<img width="1490" height="936" alt="Capture d&#39;écran 2026-11-20 120303" src="https://github.com/user-attachments/assets/77a75948-a9a4-4af7-a821-5d5e9885b91f" />
+<img width="1471" height="952" alt="Capture d&#39;écran 2026-11-20 120245" src="https://github.com/user-attachments/assets/064efed4-a215-4fd3-b59b-14347da29099" />
+<img width="1487" height="1078" alt="Capture d&#39;écran 2026-11-20 110923" src="https://github.com/user-attachments/assets/66e10676-2fba-4feb-918f-c07b0995c86a" />
 
-## Organisation du code
-
-- `lib/main.dart` : point d’entrée de l’application.
-- `lib/app.dart` : configuration du thème et écran de démarrage.
-- `lib/theme/app_colors.dart` : palette de couleurs.
-- `lib/pages/` : écrans de connexion, CV, famille, contact et navigation.
-- `lib/widgets/` : composants réutilisables, dont la barre de navigation.
-
-## Installation
-
-1. Installer [Flutter](https://docs.flutter.dev/get-started/install).
-2. Depuis le dossier du projet, installer les dépendances :
-
-   ```sh
-   flutter pub get
-   ```
-
-3. Lancer l'application :
-
-   ```sh
-   flutter run
-   ```
-
-## Technologies
-
-- Flutter / Dart
-- `google_fonts` pour la typographie Poppins
-- `url_launcher` pour les actions de contact
